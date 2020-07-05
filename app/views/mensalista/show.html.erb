@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @mensalistum.nome %>
+</p>
+
+<p>
+  <strong>Telefone:</strong>
+  <%= @mensalistum.telefone %>
+</p>
+
+<%= link_to 'Edit', edit_mensalistum_path(@mensalistum) %> |
+<%= link_to 'Back', mensalista_path %>

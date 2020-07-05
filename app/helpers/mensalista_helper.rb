@@ -1,0 +1,2 @@
+module MensalistaHelper
+end
